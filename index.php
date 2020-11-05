@@ -65,11 +65,11 @@
           ?>
         </div>
     <div class="ins">
-          
+          <div class="butt"><a href="karty.html"</a></div>
           
    </div>
    <div class="d"></div>
-           <div class="butt"><a href="karty.html"</a></div>
+           
         
     </div>
     
