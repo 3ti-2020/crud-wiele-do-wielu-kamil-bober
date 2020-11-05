@@ -65,7 +65,7 @@
           ?>
         </div>
     <div class="ins">
-          <div class="butt"><a href="karty.html"</a></div>
+          <div class="butt"><a href="karty.html"</a>KARTY</div>
           
    </div>
    <div class="d"></div>
