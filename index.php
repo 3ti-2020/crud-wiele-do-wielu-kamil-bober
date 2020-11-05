@@ -21,7 +21,7 @@
               </form>
               <h3>lista</h3>
          <?php
-          $conn = new mysqli("sql7.freemysqlhosting.net", "sql7373173", "k9GUvMpjAd", "sql7373173");
+          $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
            $result2 = $conn->query("SELECT * FROM autorzy");
 
            echo("<form action='insert3.php' method='POST'  >");
@@ -44,7 +44,7 @@
          ?></div>
     <div class="main">
           <?php
-           $conn = new mysqli("sql7.freemysqlhosting.net", "sql7373173", "k9GUvMpjAd", "sql7373173");
+           $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
            $result1 = $conn->query("SELECT id_krzyz, autor, tytul FROM krzyz, autorzy, tytuly WHERE krzyz.id_autor=autorzy.id_autor AND krzyz.id_tytul=tytuly.id_tytul");
             
            echo("<table class='tabelka' border=1");
@@ -69,6 +69,7 @@
           
    </div>
    <div class="d"></div>
+           <div class="butt"><a href="karty.html"</a></div>
         
     </div>
     
