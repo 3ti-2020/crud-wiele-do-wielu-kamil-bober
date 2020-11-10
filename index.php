@@ -68,7 +68,7 @@
           <div class="butt">Karty<a href="karty.html"</a>KARTY</div>
           
    </div>
-   <div class="d"></div>
+   <div class="d"><img src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg" height="100px" width="100px"><a href="https://github.com/3ti-2020/crud-wiele-do-wielu-kamil-bober"></div>
            
         
     </div>
