@@ -46,8 +46,14 @@
     flex-direction: column;
 }
 .butt{
-    display:block;
-    height:100px;
-    width:200px;
+    display:flex;
+    height:80px;
+    width:90px;
     background-color: darkorange;
+    text-align:center;
+    color:darkorange;
+}
+.butt a{
+    margin-top:30px;
+    margin-left:-17px;
 }
