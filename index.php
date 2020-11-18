@@ -11,7 +11,7 @@
 <div class="cont">
 
 <div class="ins">
-          <div class="butt">Karty<a href="karty.html"</a>KARTY</div>
+          <div class="butt"><a href="karty.html"</a>KARTY</div>
           
    </div>
 
