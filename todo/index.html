@@ -9,50 +9,37 @@
 <body>
     
 
-<form class="form" id="todoForm">
-    <div class="form-row">
-        <label class="form-label" for="todoMessage">Treść zadania</label>
-        <textarea class="form-message" name="todoMessage" id="todoMessage"></textarea>
-    </div>
-    <div class="form-row">
-        <button type="submit" class="button form-button">Dodaj</button>
-    </div>
-</form>
+    <div class="content">
 
-<section class="list-cnt">
-    <header class="list-header">
-        <h2 class="list-title">
-            Lista zadań
-        </h2>
-        <form class="list-search-form">
-            <input type="search" id="todoSearch" class="list-search">
+        <form class="form" id="todoForm">
+            <div class="form-row">
+                <label class="form-label" for="todoMessage">Podaj treść zadania todo</label>
+                <textarea class="form-message" name="todoMessage" id="todoMessage"></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="button form-button">Dodaj zadanie</button>
+            </div>
         </form>
-    </header>
 
-    <div class="list" id="todoList">
-        <!-- tutaj trafią zadania -->
+        <section class="list-cnt">
+            
+            <div class="list" id="todoList">
+                <div class="element" >
+                 
+                </div>
+            </div>
+
+        </section>
     </div>
-</section>
-<div class="element">
-    <div class="element-bar">
-        <h3 class="element-date">25-11-2020 godz. 4:20</h3>
-        <button class="element-delete" title="Usuń task">
-            Usuń
-        </button>
-    </div>
-    <div class="element-text">
-    </div>
-</div>
-<template id="elementTemplate">
-    <div class="element-bar">
-        <h3 class="element-date"></h3>
-        <button class="element-delete" title="Usuń task">
-            Usuń
-        </button>
-    </div>
-    <div class="element-text">
-    </div>
-</template>
+
+    <template id="elementTemplate">
+        <div class="element-bar">
+            
+        </div>
+        <div class="element-text">
+
+        </div>
+    </template>
 
 </body>
 <script src="scr.js"></script>
