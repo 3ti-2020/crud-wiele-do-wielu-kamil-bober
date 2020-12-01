@@ -9,27 +9,7 @@
 <body>
     <div class="cont">
         <div class="main">
-        <?php
-           $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
-           $result1 = $conn->query("SELECT id_krzyz, autor, tytul FROM krzyz, autorzy, tytuly WHERE krzyz.id_autor=autorzy.id_autor AND krzyz.id_tytul=tytuly.id_tytul");
-            
-           echo("<table class='tabelka' border=1");
-           echo("<tr>
-           <th>ID Książki</th>
-           <th>Autor</th>
-           <th>Tytuł</th>
-           </tr>");
-
-           while($row=$result1->fetch_assoc() ){
-               echo("<tr>");
-               echo("<td>".$row['id_krzyz']."</td>");
-               echo("<td>".$row['autor']."</td>");
-               echo("<td>".$row['tytul']."</td>");
-          
-               echo("</tr>");
-           }
-          ?>
-        </div>
+        
 
 
         <div class="head">
@@ -76,6 +56,27 @@
            echo("<input type='submit' value='Zapisz'>");
            echo("</form>");
          ?>
+        </div>
+       <?php
+           $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
+           $result1 = $conn->query("SELECT id_krzyz, autor, tytul FROM krzyz, autorzy, tytuly WHERE krzyz.id_autor=autorzy.id_autor AND krzyz.id_tytul=tytuly.id_tytul");
+            
+           echo("<table class='tabelka' border=1");
+           echo("<tr>
+           <th>ID Książki</th>
+           <th>Autor</th>
+           <th>Tytuł</th>
+           </tr>");
+
+           while($row=$result1->fetch_assoc() ){
+               echo("<tr>");
+               echo("<td>".$row['id_krzyz']."</td>");
+               echo("<td>".$row['autor']."</td>");
+               echo("<td>".$row['tytul']."</td>");
+          
+               echo("</tr>");
+           }
+          ?>
         </div>
     </div>
 </body>
