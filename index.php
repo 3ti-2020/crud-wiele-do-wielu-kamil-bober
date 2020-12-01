@@ -38,7 +38,7 @@
 
 
         <div class="nav">
-        <div class="butt">Karty<a href="todo/index.html"</a>KARTY</div>
+        <div class="butt"><a href="todo/index.html"</a>KARTY</div>
         </div>
         
 
