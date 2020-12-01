@@ -18,7 +18,7 @@
 
 
         <div class="nav">
-        <div class="butt"><a href="todo/index.html"</a>KARTY</div>
+        <div class="butt"><a href="egz.html"</a>Pytania</div>
         </div>
         
 
