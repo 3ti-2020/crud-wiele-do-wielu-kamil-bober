@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="cont">
-        <div class="main">
+        
         
 
 
@@ -57,6 +57,7 @@
            echo("</form>");
          ?>
         </div>
+       <div class="main">
        <?php
            $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
            $result1 = $conn->query("SELECT id_krzyz, autor, tytul FROM krzyz, autorzy, tytuly WHERE krzyz.id_autor=autorzy.id_autor AND krzyz.id_tytul=tytuly.id_tytul");
