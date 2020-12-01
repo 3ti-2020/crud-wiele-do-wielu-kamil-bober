@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    background: darkmagenta;
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr ;
+    grid-template-areas: 
+    "a a"
+    "c b"
+    "c b";
+}
+.head{
+    grid-area:a;
+    background-color: darkred;
+    color:orangered;
+    text-align: center;
+}
+.l_side{
+    grid-area: c;
+    background-color: darkred;
+    color: orangered;
+}
+.r_side{
+    grid-area: b;
+    background-color: orangered;
+    color:darkred;
+}
+.a{
+    background-color: gray;
+    color: white;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
