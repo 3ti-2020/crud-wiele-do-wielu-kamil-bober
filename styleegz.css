@@ -4,7 +4,7 @@
 }
 
 .cont{
-    background: darkmagenta;
+    background: darkred;
     display:grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
@@ -29,17 +29,19 @@
     grid-area: b;
     background-color: orangered;
     color:darkred;
+     border-radius: 20px;
+    
 }
 .a{
-    background-color: gray;
-    color: white;
+    background-color: darkred;
+    color: orangered;
     display: flex;
     height: 40px;
     width: 80px;
     margin: 20px;
-    text-decoration: none;
+    text-decoration:none;
     justify-content: center;
     text-align: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
 }
