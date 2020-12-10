@@ -1,0 +1,30 @@
+*{
+    
+}
+.cont{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: 
+    "a a"
+    "s m";
+    background-color: darkgrey;
+    height:100vh;
+}
+.head{
+    grid-area:a;
+    background-color: rgb(255, 238, 1);
+    color:black;
+    display:flex;
+}
+.side{
+    grid-area:s;
+    background-color: darkorange;
+    color:black;
+    display:flex;
+}
+.main{
+    grid-area:m;
+    background-color: darkturquoise;
+    display:flex;
+}
