@@ -11,7 +11,13 @@
         <div class="head">
             <h1>Blog</h1>
         </div>
-        
+        <div class="side">
+            <form action="wyszukiwanie.php" method="post" class='form_tag'>
+                <p>Wyszukaj tag:</p>
+                <p>#<input type='text' name='wyszukaj' class='szukaj'></p>
+                <input type="submit" class='szukaj' value='Wyszukaj'>
+            </form>
+        </div>
         <div class="main">
             e
         </div>
