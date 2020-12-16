@@ -30,16 +30,11 @@
                 echo("<p class='tresc'>");
                 echo($row1['tresc']);
                 echo("</p>");
-                echo("<div class='tagi'>");
-                echo("<h3 class='tag'>");
                     }
                 echo("</h3>");
                 echo("</div>");
                 echo("</article>");
-            }
-
-
-        ?> 
+         ?>  
         </div>
     </div>
     
