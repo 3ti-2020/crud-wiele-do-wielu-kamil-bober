@@ -26,7 +26,7 @@
             while($row1 = $result1->fetch_assoc() ){
                 echo("<article class='post'>");
                 echo("<h2 class='tytul'>".$row1['tytul']."</h2>");
-                echo("<img src='".$row1['zdj']."' class='zdj'>");
+                 echo("<img src='".$row1['zdj']."' class='zdj' height='200px' width='500px'>");
                 echo("<p class='tresc'>");
                 echo($row1['tresc']);
                 echo("</p>");
