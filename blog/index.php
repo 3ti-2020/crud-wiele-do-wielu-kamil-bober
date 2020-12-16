@@ -19,7 +19,27 @@
             </form>
         </div>
         <div class="main">
-            e
+            <?php
+            $conn = new mysqli("mysql-bogdannwj.alwaysdata.net", "bogdannwj", "qscftghJ1", "bogdannwj_dbt");
+
+            $result1 = $conn->query("SELECT * FROM post");
+            while($row1 = $result1->fetch_assoc() ){
+                echo("<article class='post'>");
+                echo("<h2 class='tytul'>".$row1['tytul']."</h2>");
+                echo("<img src='".$row1['zdj']."' class='zdj'>");
+                echo("<p class='tresc'>");
+                echo($row1['tresc']);
+                echo("</p>");
+                echo("<div class='tagi'>");
+                echo("<h3 class='tag'>");
+                    }
+                echo("</h3>");
+                echo("</div>");
+                echo("</article>");
+            }
+
+
+        ?> 
         </div>
     </div>
     
